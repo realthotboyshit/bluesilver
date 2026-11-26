@@ -25,7 +25,6 @@ modules:
       nonfree: rpmfusion
       copr:
         - atim/starship
-        - scottames/ghostty
     install:
       packages:
         - micro
