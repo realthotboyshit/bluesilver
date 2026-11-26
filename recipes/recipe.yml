@@ -20,8 +20,6 @@ modules:
   - type: dnf
     repos:
       cleanup: true
-      enable: 
-        - google-chrome
       files:
         - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
       nonfree: rpmfusion
@@ -32,7 +30,7 @@ modules:
       packages:
         - micro
         - starship
-        - google-chrome-beta
+        - https://dl.google.com/linux/direct/google-chrome-beta_current_x86_64.rpm
         - ghostty
         - fish
         - git
